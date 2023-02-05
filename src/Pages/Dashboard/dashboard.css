@@ -1,0 +1,6 @@
+.dashboard{
+    display: flex;
+    position: absolute;
+    left: 23rem; 
+    top: 8rem;
+}

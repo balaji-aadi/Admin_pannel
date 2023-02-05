@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+
+
+.main-nav{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    bottom: 2.5rem;
+}
+
+.logo h3{
+    position: relative;
+    left: 6rem;
+    top: 13px;
+    font-weight: 500;
+}
+
+.logo img{
+    position: absolute;
+    left: 2rem;
+    top: 47px;
+}
+
+
+.searchBar h3{
+    position: relative;
+    right: 14rem;
+    width: 105px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2C2C2C;
+    top: 57px;
+}
+
+.searchBar img{
+    position: absolute;
+    left: 3.25%;
+    height: 17px;
+    top: 54.25%;
+}
+
+.searchBar{
+    position: relative;
+    left: 13rem;
+    
+}
+
+.searchBar input{
+    position: relative;
+    border: none;
+    width: 351px;
+    height: 39px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    outline: none;
+    bottom: 41px;
+    left: 39px;
+    cursor: pointer;
+}
+
+
+.search_box{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 20px;
+    gap: 12px;
+    width: 395px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nav-icons{
+    display: flex;
+    align-items: center;
+}
+
+.notification{
+    width: 16.67px;
+    height: 19.28px;
+    position: relative;
+    top: 13px;
+    cursor: pointer;
+}
+
+.setting{
+    width: 17.33px;
+    height: 17.33px;
+    position: relative;
+    top: 13px;
+    left: 32px;
+    cursor: pointer;
+}
+
+.admin-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10.5px; 
+}
+
+.avatar{
+    border-radius: 25.2px;
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 73rem;
+    top: 56px;
+    cursor: pointer;
+}
+
+.admin-section h4{
+    width: 99px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: rgba(44, 44, 44, 0.87);
+    position: relative;
+    left: 103px;
+    top: 5px;
+    
+}
+
+.admin-section h6{
+    width: 146px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    position: relative;
+    top: 20px;
+    right: 6px;
+    
+}

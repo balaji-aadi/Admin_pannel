@@ -1,0 +1,84 @@
+.main{
+    height: 100vh;
+}
+
+.Sidebar{
+    width: 283px;
+    flex-shrink: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 1px rgba(58, 53, 65, 0.14);
+    height: 87%;
+    position: fixed;
+    overflow-x:hidden ;
+    top: 5rem;
+}
+
+.sidebar-item{
+    padding: 0em 1em;
+    display: block;
+    position: relative;
+    top: 70px;
+}
+  
+.sidebar-title:hover{
+    background: rgba(44, 39, 51, 0.1);
+    border-radius: 0px 50px 50px 0px;
+}
+
+
+.sidebar-title{
+    position: relative;
+    right: 1rem;
+    height: 37px;
+    width: 17rem;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.home{
+    position: absolute;
+    left: 1rem;
+    top: 1px;
+}
+  
+.sidebar-title span i{
+    display: inline-block;
+    width: 1.5em;
+}
+
+.sidebar-title span{
+    color: black;
+    position: absolute;
+    left: 3rem;
+    top: 3px;
+}
+
+.sidebar-title .link{
+    text-decoration: none;
+}
+
+.sidebar-title .toggle-btn{
+    cursor: pointer;
+    transition: transform .3s;
+    position: absolute;
+    left: 15rem;
+}
+
+.sidebar-item.open .sidebar-title .toggle-btn{
+    transform: rotate(180deg);
+}
+  
+.sidebar-content{
+    position: relative;
+    left: 2rem;
+    padding-top: .20em;
+    height: 0;
+    overflow: hidden;
+}
+
+
+  
+.sidebar-item.open .sidebar-content{
+    height: auto;
+}
+  
